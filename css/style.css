@@ -1,0 +1,30 @@
+body {
+  background-color: #C8FF9D;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: Righteous;
+  font-size: 3em;
+  color: #F56D49;
+  padding: 10pt;
+  border: 8pt solid #F56D49;
+  background-color: #FFDC9E;
+}
+
+#avatar {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#info {
+  text-align:center;
+  font-family: 'Bangers', cursive;
+  font-size: 150%;
+  border: 4pt solid black;
+  background-color: #F29329;
+}
