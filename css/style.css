@@ -19,12 +19,14 @@ h1 {
   display:block;
   margin-left:auto;
   margin-right:auto;
+  padding-bottom: 10pt;
 }
 
 #info {
   text-align:center;
   font-family: 'Bangers', cursive;
   font-size: 150%;
-  border: 4pt solid black;
-  background-color: #F29329;
+  color: #008048;
+  background-color: #FFEBA5;
+  padding: 20pt;
 }
