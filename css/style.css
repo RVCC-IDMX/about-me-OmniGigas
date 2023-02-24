@@ -31,14 +31,10 @@ h1 {
   padding: 20pt;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.hobbies {
+  text-align: center;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+ul {
+  display: inline-block;
 }
