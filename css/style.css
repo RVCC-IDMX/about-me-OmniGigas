@@ -84,3 +84,9 @@ article {
   font-size: 200%;
   text-indent: 30px;
 }
+
+footer {
+  font-size: 150%;
+  border:1px solid;
+  padding: 20px;
+}
