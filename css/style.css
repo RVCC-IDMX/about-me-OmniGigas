@@ -25,7 +25,7 @@ h1 {
 #info {
   text-align:center;
   font-family: 'Bangers', cursive;
-  font-size: 150%;
+  font-size: 200%;
   color: #008048;
   background-color: #FFEBA5;
   padding: 20pt;
@@ -58,6 +58,29 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width:30%;
-  padding: 25pt;
+  border:5px solid rgb(173, 19, 19);
 }
 
+figcaption {
+  font-family: Righteous;
+  font-weight:bold;
+  color:black;
+  font-size:120%;
+}
+
+article {
+  font-family: 'Dancing Script', cursive;
+  border:6px solid darkcyan;
+  padding:15px;
+  color:rgb(92, 2, 2);
+}
+
+#storyTitle {
+  text-align: center;
+  font-size: 250%;
+}
+
+#story {
+  font-size: 200%;
+  text-indent: 30px;
+}
