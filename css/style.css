@@ -85,6 +85,13 @@ article {
   text-indent: 30px;
 }
 
+#story p:first-letter {
+  color:crimson;
+  float:left;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 footer {
   font-size: 150%;
   border:1px solid;
