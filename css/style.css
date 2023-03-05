@@ -24,7 +24,7 @@ h1 {
   margin-left:auto;
   margin-right:auto;
   padding-bottom: 10pt;
-  width: 40%;
+  width: 25%;
 }
 
 #info {
@@ -97,7 +97,7 @@ article {
 #story p:first-letter {
   color:crimson;
   float:left;
-  font-size: 15pt;
+  font-size: 150%;
   font-weight: bold;
 }
 
@@ -108,11 +108,14 @@ footer {
 }
 
 @media (min-width: 500px) {
+  h1 {
+    font-size: 35pt; }
+
   #info {
-    font-size: 14pt; }
+    font-size: 18pt; }
   
   #hobbies {
-    font-size: 14pt; } 
+    font-size: 18pt; } 
 
   .picture {
     width: 40%; 
@@ -123,10 +126,10 @@ footer {
     grid-template-columns: 2fr 1fr;
     border: 2px solid darkcyan; }
 
-  figcaption { font-size: 10pt; }
+  figcaption { font-size: 15pt; }
 
   #story {
-    font-size: 12pt;
+    font-size: 20pt;
     column-count: 2;
     column-rule: 1px solid darkblue; }
   }
@@ -134,16 +137,16 @@ footer {
 
 @media (min-width: 800px) {
   #avatar {
-    width: 45%; }
+    width: 30%; }
 
   h1 {
-    font-size: 25pt; }
+    font-size: 50pt; }
 
   #info {
-    font-size: 18pt; }
+    font-size: 25pt; }
 
   #hobbies {
-    font-size: 18pt; }
+    font-size: 25pt; }
 
   #gallery {
     font-size: 20pt; }
@@ -157,10 +160,10 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     border: 2px solid darkcyan; }
 
-  figcaption { font-size: 12pt; }
+  figcaption { font-size: 20pt; }
 
   #story {
-    font-size: 14pt;
+    font-size: 25pt;
     column-count: 3;
     column-rule: 1px solid darkblue; }
 }
