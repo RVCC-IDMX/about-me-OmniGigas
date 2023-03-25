@@ -19,12 +19,19 @@ h1 {
   background-color: #FFDC9E;
 }
 
+#face {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-bottom: 40px;
+}
+
 #avatar {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  padding-bottom: 10pt;
-  width: 25%;
+  padding-right: 50px;
+}
+
+#myVideo {
+  padding-left: 50px;
 }
 
 #info {
