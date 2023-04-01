@@ -98,8 +98,56 @@
       </div>     
     </article>
 
-    <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/WTVbhaQ0zHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="bottom">
+      <div>
+        <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/WTVbhaQ0zHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
 
+      <div>
+        <h2>Contact Us:</h2>
+
+        <form id="contactform" name="contactform" method="post" data-netlify="true">
+          <fieldset>
+            <legend>Contact Form</legend>
+
+            <div id="formElements">
+              <label for="name">Name (required)</label>
+              <input id="name" name="name" type="text" require="true" placeholder="Enter your name">
+
+              <label for="email">Email (required)</label>
+              <input id="email" name="email" require="true" type="text" placeholder="Enter your email">
+
+              <label for="phone">Phone Number (optional)</label>
+              <input id="phone" name="phone" type="text" placeholder="Enter your phone number (optional)">
+
+              <label for="phoneType">Phone number</label>
+              <select id="phoneType" name="phoneType">
+                <option value="" selected>Select a phone type:</option>
+                <option value="Home">Home</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Work">Work</option>
+              </select>
+
+              <label id="message">Message (optional)</label>
+              <textarea id="comment" name="comment" placeholder="Write a message to us." rows="5"></textarea>
+
+              <fieldset>
+                <legend>Would you like a reply?</legend>
+
+                <input type="radio" id="msgyes" name="reply" value="yes">
+                <label for="msgyes"> Yes, I would like a reply.</label>
+
+                <input type="radio" id="msgno" name="reply" value="no" checked>
+                <label for="msgno"> No, thanks.</label>
+              </fieldset>
+
+              <button type="submit">SUBMIT</button>
+
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div> 
   </main>
 
   <footer>
