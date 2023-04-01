@@ -121,6 +121,15 @@ footer {
 
 #formElements {
   display:grid;
+  row-gap: 1em;
+}
+
+#contact {
+  background-color:#FFEBA5;
+  border: 5px solid black;
+  padding: 1rem;
+  max-width: 600px;
+  margin: 3rem auto;
 }
 
 @media (min-width: 500px) {
@@ -158,9 +167,9 @@ footer {
       width: 360px;
       height: 240px;
       border: 8px solid darkred;
-      border-style: groove;
+      border-style: groove; }
 
-  }
+    
   
 
 @media (min-width: 800px) {
