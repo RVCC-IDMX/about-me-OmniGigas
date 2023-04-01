@@ -121,7 +121,6 @@ footer {
 
 #formElements {
   display:grid;
-  row-gap: 2px;
 }
 
 #contact {
