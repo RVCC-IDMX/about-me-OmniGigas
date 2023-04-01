@@ -121,7 +121,7 @@ footer {
 
 #formElements {
   display:grid;
-  row-gap: 1em;
+  row-gap: 2px;
 }
 
 #contact {
@@ -169,6 +169,11 @@ footer {
       border: 8px solid darkred;
       border-style: groove; }
 
+      #formElements {
+        display:grid;
+        row-gap: 4px;
+      }
+
     
   
 
@@ -214,5 +219,10 @@ footer {
       height: 320px;
       border: 10px solid darkred;
       border-style: groove;
+    }
+
+    #formElements {
+      display:grid;
+      row-gap: 6px;
     }
 }
