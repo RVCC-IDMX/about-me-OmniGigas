@@ -157,20 +157,20 @@ footer {
     column-count: 2;
     column-rule: 1px solid darkblue; }
 
-    #myVideo {
-      display: block;
-      margin-top: 16px;
-      margin-bottom: 16px;
-      margin-left: auto;
-      margin-right: auto;
-      width: 360px;
-      height: 240px;
-      border: 8px solid darkred;
-      border-style: groove; }
+  #myVideo {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 240px;
+    border: 8px solid darkred;
+    border-style: groove; }
 
-      #formElements {
-        display:grid;
-        row-gap: 4px;
+    #formElements {
+      display:grid;
+      row-gap: 1rem;
       }
 
     
@@ -222,6 +222,6 @@ footer {
 
     #formElements {
       display:grid;
-      row-gap: 6px;
+      row-gap: 2rem;
     }
 }
