@@ -222,6 +222,6 @@ footer {
 
     #formElements {
       display:grid;
-      row-gap: 2rem;
+      row-gap: 1rem;
     }
 }
