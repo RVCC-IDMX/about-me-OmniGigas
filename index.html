@@ -8,15 +8,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
 </head>
 
 <body>
 
   <header>
-    <img id="bird" src="images/Origami.png" alt="Bird Origami">
+    <nav class="navbar">
+      <div class="logo">
+        <img id="bird" src="images/Origami.png" alt="Bird Origami">
+        <h1>Taoyuan Zhang</h1>
+      </div>
 
-    <h1>Taoyuan Zhang</h1>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#myVideo" class="nav-links">Video</a></li>
+          <li><a href="#gallery" class="nav-links">Gallery</a></li>
+          <li><a href="#lit" class="nav-links">Article</a></li>
+          <li><a href="#contact" class="nav-links">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <main>
@@ -61,7 +74,7 @@
       </div>
     </section>
 
-    <article>
+    <article id="lit">
       <h2 id="storyTitle">Literature Nonsense</h2>
 
       <div id="story">
