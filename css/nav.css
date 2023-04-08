@@ -17,17 +17,17 @@ main {
 }   /* add some padding back to rest of page */
 
 .navbar-links {
-  background-color:cornflowerblue;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }  /* navbar */
 
-nav ul li {
+.navbar-links ul li {
   list-style-type: none;
 }   /* navbar */
 
-li a {
+.navbar-links ul li a {
+  background-color:cornflowerblue;
   font-family: Righteous;
   text-align: center;
   text-decoration: none;
@@ -35,10 +35,11 @@ li a {
   display: block;
 }   /* navbar */
 
-li a:hover {
-  background-color:aquamarine;
-  color:darkslateblue;
-}
+.navbar-links ul li a:hover,
+.navbar-links ul li a:focus {
+  background-color: aquamarine;
+  color:brown;
+}  /* apply hover to navbar */
 
 .logo {
   display: flex;
@@ -46,21 +47,45 @@ li a:hover {
 }   /* logo */
 
 
+@media (min-width: 600px) {
+  .navbar-links {
+    background-color:cornflowerblue;
+    height: 50px;
+  }   
 
-/* navigation list */
+  .navbar-links ul li { 
+    float: left;
+    display: block;
+    width: 25%;
+    }
 
+  .navbar-links ul li a {
+    font-size: 100%;
+    text-align: center;
+    line-height: 50px;
+  }
+ 
+  .navbar-links ul li a:hover,
+  .navbar-links ul li a:focus {
+  background-color: aquamarine;
+  color:brown;
+  font-size: 110%;
+  }  
+}
 
-/*  
- style all a tags in header 
- and then on hover
-*/
+@media (min-width: 800px) {
+  .navbar-links ul li a {
+    font-size: 120%;
+  }
 
+  .navbar-links ul li a:hover,
+  .navbar-links ul li a:focus {
+  background-color: aquamarine;
+  color:brown;
+  font-size: 150%;
+  }  
 
-
-
-
-/* 
-media query for non-mobile nav bar
+}   /* media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */

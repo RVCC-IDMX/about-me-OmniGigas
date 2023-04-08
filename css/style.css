@@ -7,15 +7,20 @@ header {
 }
 
 #bird {
-  width: 20%;
+  width: 10%;
+  margin-left: 5px;
 }
 
 h1 {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
   font-family: Righteous;
-  font-size: 20pt;
+  font-size: 130%;
   color: #F56D49;
   padding: 10pt;
-  border: 4pt solid #F56D49;
+  border: 2px solid #F56D49;
   background-color: #FFDC9E;
 }
 
@@ -44,6 +49,10 @@ h1 {
   font-size: 10pt;
   color: #008048;
   background-color: #FFEBA5;
+}
+
+#hobbies ul li {
+  list-style: none;
 }
 
 #gallery {
@@ -133,7 +142,8 @@ footer {
 
 @media (min-width: 500px) {
   h1 {
-    font-size: 35pt; }
+    font-size: 150%;
+    border: 3.5px solid #F56D49;  }
 
   #info {
     font-size: 18pt; }
@@ -181,7 +191,8 @@ footer {
     width: 30%; }
 
   h1 {
-    font-size: 50pt; }
+    font-size: 300%;
+    border: 5px solid #F56D49; }
 
   #info {
     font-size: 25pt; }
