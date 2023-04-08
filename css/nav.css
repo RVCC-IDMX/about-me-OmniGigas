@@ -16,11 +16,24 @@ main {
   padding: 2vw;
 }   /* add some padding back to rest of page */
 
+.navbar-links {
+  background-color:cornflowerblue;
+}
 
-/* navbar */
+nav ul li {
+  list-style-type: none;
+}
 
+li a {
+  font-family: Righteous;
+  text-decoration: none;
+  color: white;
+}
 
-
+.logo {
+  display: flex;
+  align-items: center;
+}
 /* logo */
 
 
