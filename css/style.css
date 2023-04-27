@@ -25,12 +25,12 @@ h1 {
   background-color: #9ef0ff;
 }
 
-#avatar {
+#me {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
   width: 50%;
+  border: 4px solid darkred;
 }
 
 #midBanner {
