@@ -94,7 +94,7 @@ h1 {
 
 #storyTitle {
   text-align: center;
-  font-size: 300%;
+  font-size: 100%;
 }
 
 #article {
@@ -150,6 +150,11 @@ footer {
     grid-template-columns: 2fr 1fr;
     border: 2px solid darkcyan; }
 
+  #storyTitle {
+      text-align: center;
+      font-size: 200%;
+    }
+
   #article {
     font-size: 15px;
      } 
@@ -176,6 +181,11 @@ footer {
   #background {
     font-size: 20px; 
     padding: 5px 20px;
+  }
+
+  #storyTitle {
+    text-align: center;
+    font-size: 300%;
   }
 
   #article {
