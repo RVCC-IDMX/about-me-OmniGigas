@@ -31,6 +31,7 @@ h1 {
   margin-right: auto;
   width: 50%;
   border: 4px solid darkred;
+  border-radius: 50%;
 }
 
 #midBanner {
@@ -48,7 +49,7 @@ h1 {
   padding: 5pt;
 }
 
-#hobbies {
+#background {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,21 +60,9 @@ h1 {
   background-color: #FFEBA5;
 }
 
-#hobbies ul li {
+#background ul li {
   list-style: none;
 }
-
-#gallery {
-  background-color:rgb(210, 240, 190);
-  text-align:center;
-  font-family: 'Bangers', cursive;
-  font-size: 15pt;
-  color:brown;
-  border: 4px solid tan;
-  border-style: groove;
-  margin-top: 25px;
-}
-
 
 #fun {
   border: 2px solid darkcyan;
@@ -92,24 +81,6 @@ h1 {
   height: 100%;
 }
 
-.picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  border: 2px solid rgb(173, 19, 19);
-}
-
-figcaption {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 8pt;
-  margin-left: 1rem;
-  font-family: Righteous;
-  font-weight:bold;
-  color:black;
-}
 
 #lit {
   font-family: 'Roboto Slab', serif;
@@ -126,20 +97,15 @@ figcaption {
   font-size: 300%;
 }
 
-#story {
+#article {
   font-size: 10px;
 }
 
-#story p:first-letter {
+#article p:first-letter {
   color:crimson;
   float:left;
   font-size: 150%;
   font-weight: bold;
-}
-
-#myMaps {
-  display: flex;
-  flex: 50%;
 }
 
 
@@ -174,41 +140,24 @@ footer {
   #info {
     font-size: 18pt; }
   
-  #hobbies {
+  #background {
     font-size: 15px; 
     padding: 5px 20px;
   } 
-
-  .picture {
-    width: 40%; 
-    border: 4px solid rgb(173, 19, 19); }
 
   #fun {
     display:grid;
     grid-template-columns: 2fr 1fr;
     border: 2px solid darkcyan; }
 
-  figcaption { font-size: 15pt; }
-
-  #story {
+  #article {
     font-size: 15px;
-     }
+     } 
 
-  #myVideo {
-    display: block;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 360px;
-    height: 240px;
-    border: 8px solid darkred;
-    border-style: groove; }
-
-    #formElements {
-      display:grid;
-      row-gap: 1rem;
-      }
+  #formElements {
+    display:grid;
+    row-gap: 1rem;
+    }
 
     
   
@@ -224,43 +173,18 @@ footer {
   #info {
     font-size: 25pt; }
 
-  #hobbies {
+  #background {
     font-size: 20px; 
     padding: 5px 20px;
   }
 
-  #gallery {
-    font-size: 20pt; }
-
-  .picture {
-    width: 90%;
-    border: 6px solid rgb(173, 19, 19); }
-
-  #fun {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 2px solid darkcyan; }
-
-  figcaption { font-size: 20pt; }
-
-  #story {
+  #article {
     font-size: 20px;
      }
 
-    #myVideo {
-      display: block;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      margin-left: auto;
-      margin-right: auto;
-      width: 480px;
-      height: 320px;
-      border: 10px solid darkred;
-      border-style: groove;
-    }
-
-    #formElements {
-      display:grid;
-      row-gap: 2rem;
+  
+  #formElements {
+    display:grid;
+    row-gap: 2rem;
     }
 }
