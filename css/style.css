@@ -86,7 +86,7 @@ h1 {
   font-family: 'Roboto Slab', serif;
   background-color:gold;
   border:6px solid darkcyan;
-  max-height: 300px;
+  height: 300px;
   overflow: scroll;
   padding:15px;
   color:rgb(92, 2, 2);
@@ -151,7 +151,7 @@ footer {
     border: 2px solid darkcyan; }
 
   #lit {
-    max-height: 400px;
+    height: 400px;
   }
 
   #storyTitle {
@@ -188,7 +188,7 @@ footer {
   }
 
   #lit {
-    max-height: 500px;
+    height: 500px;
   }
 
 
