@@ -86,7 +86,7 @@ h1 {
   font-family: 'Roboto Slab', serif;
   background-color:gold;
   border:6px solid darkcyan;
-  max-height: 500px;
+  max-height: 300px;
   overflow: scroll;
   padding:15px;
   color:rgb(92, 2, 2);
@@ -150,6 +150,10 @@ footer {
     grid-template-columns: 2fr 1fr;
     border: 2px solid darkcyan; }
 
+  #lit {
+    max-height: 400px;
+  }
+
   #storyTitle {
       text-align: center;
       font-size: 20px;
@@ -182,6 +186,11 @@ footer {
     font-size: 20px; 
     padding: 5px 20px;
   }
+
+  #lit {
+    max-height: 500px;
+  }
+
 
   #storyTitle {
     text-align: center;
