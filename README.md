@@ -14,6 +14,8 @@
   
   The head banner uses these styles: text-color: #F56D49, background-color: #9ef0ff, font-family: Righteous.
   
+  The navigation bar is linked to: my self-portrait, the embedded google map, the article following the map, and the contact form.
+  
   ## MAIN
   
   The main section is comprised of a few parts: my self-portrait, a short paragraph about a bit of myself, an embedded google map, another short article 
